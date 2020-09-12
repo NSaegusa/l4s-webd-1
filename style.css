@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 .main-visual {
-    width: 90%;
+    width: 76.3%;
     height: 664px;
     background: #fff url(sea.jpg) 0 0 no-repeat;
     background-size: cover;
@@ -42,12 +42,12 @@ nav a:hover {
 }
 
 .wrapper {
-    width: 1000px;
+    width: 1010px;
     margin: 0 auto;
 }
 
 #main {
-    width: 680px;
+    width: 690px;
     margin: 0 auto;
     overflow: hidden;
     /*background: 16px;*/
@@ -59,6 +59,7 @@ nav a:hover {
     overflow: hidden;
     background: #fff;
     margin: 10px;
+    padding: 10px;
 }
 
 #content1 {
@@ -206,6 +207,7 @@ body {
     margin: 10px;
     background: #fff;
     padding: 8px;
+
 }
 
 #sidebar img {
@@ -560,5 +562,5 @@ a.igbutton:hover .edge {
 }
 
 .gazou{
-    padding: 20px;
+    padding: 0px 20px;
 }
