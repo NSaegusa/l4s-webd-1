@@ -208,7 +208,7 @@ body {
 #sidebar {
     float: left;
     width: 280px;
-    margin: 10px;
+    margin: 20px 10px;
     background: #fff;
     padding: 8px;
 
@@ -491,5 +491,11 @@ a.igbutton:hover .edge {
 }
 
 .gazou{
-    padding: 0px 20px;
+    padding: 8px 20px;
+}
+
+.photo-image{
+    padding: 10px;
+    margin: 0 auto;
+    
 }
