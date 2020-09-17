@@ -91,11 +91,55 @@ nav a:hover {
     text-align: center;
     margin:10px;
     color: #386387;
-    font-weight: 400;
 }
 
-.imagegazou{
+.favorite-box {
+    width: 680px;
+    padding: 10px;
     margin: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    color: #9fbbd5;
+
+}
+
+.dissolve-animation {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+
+#content2 .dissolve-animation .caption {
+    position: absolute;
+    padding: 10px;
+    margin: 20px;
+    background: #e63c35;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    float: left;
+}
+
+#content2 .dissolve-animation .caption h2{
+    color: #fff;
+    font-size: 13px;
+}
+
+.idol-image{
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+.imagegazou{
+    margin:20px;
+    padding: 10px;
+    overflow: hidden;
 }
 
 
@@ -103,10 +147,7 @@ img {
     float: left;
 }
 
-h2 {
-    color: #9fbbd5;
 
-}
 
 h3 {
     color: #555;
@@ -123,38 +164,8 @@ p1 {
     font-size: 12px;
 }
 
-/*
-a.fbbutton {
-    margin-top: 16px;
-    font-size: 16px;
-    padding: 8px 32px;
-    background: #3b5998;
-    color: #f9f9f9;
-    border: 1px solid #3b5998;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-a.fbbutton:hover {
-    background: #f9f9f9;
-    color: #3b5998;
-}
-*/
 
 
-/*#main a.fbbutton{
-    background-color: #3B5998;
-    color: #fff;
-}*/
-
-
-.favorite-box {
-    width: 800px;
-    padding: 10px;
-    margin: 10px;
-    overflow: hidden;
-}
 
 .right-box {
     float: left;
@@ -230,116 +241,6 @@ p.new {
     top: 16px;
 }
 
-
-.dissolve-animation {
-    position: relative;
-    width: 300px;
-    float: left;
-}
-
-#content1 .dissolve-animation .caption {
-    position: absolute;
-    padding: 20px;
-    background: #e63c35;
-    height: 160px;
-    width: 260px;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    opacity: 0;
-}
-
-#content1 .dissolve-animation .caption h2 {
-    color: white;
-    font-size: 13px;
-}
-
-#content1 .dissolve-animation .caption h3 {
-    color: white;
-    font-size: 15px;
-}
-
-#content1 .dissolve-animation :hover.caption {
-    -webkit-transform: translate(8px, 8px);
-    -ms-transform: translate(8px, 8px);
-    -o-transform: translate(8px, 8px);
-    transform: translate(8px, 8px);
-    opacity: 1;
-}
-
-.flip-animation {
-    position: relative;
-    width: 300px;
-    float: left;
-    -webkit-perspective: 500;
-    -moz-perspective: 500;
-    -ms-perspective: 500;
-    perspective: 500;
-    -webkit-perspective-origin: left;
-    -moz-perspective-origin: left;
-    -ms-perspective-origin: left;
-    perspective-origin: left;
-}
-
-#content2 .flip-animation .caption {
-    position: absolute;
-    padding: 20px;
-    background: #e63c35;
-    height: 185px;
-    width: 100px;
-
-    opacity: 0;
-
-    -webkit-transform: rotateY(-90deg);
-    -ms-transform: rotateY(-90deg);
-    -o-transform: rotateY(-90deg);
-    transform: rotateY(-90deg);
-
-    -webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
-    -o-transition: transform 0.4s, opacity 0.1s 0.3s;
-    transition: transform 0.4s, opacity 0.1s 0.3s;
-
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    transform-origin: 0 0;
-}
-
-#content2 .flip-animation .caption h2 {
-    color: white;
-    font-size: 13px;
-}
-
-#content2 .flip-animation .caption h3 {
-    color: white;
-    font-size: 15px;
-}
-
-#content2 .flip-animation:hover .caption {
-    opacity: 1;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-
-    -webkit-transition: transform 0.4s, opacity 0.1s;
-    -o-transition: transform 0.4s, opacity 0.1s;
-    transition: transform 0.4s, opacity 0.1s;
-}
-
-#content2 .flip-animation:hover img {
-    -webkit-transform: translateX(25%);
-    -ms-transform: translateX(25%);
-    -o-transform: translateX(25%);
-    transform: translateX(25%);
-}
-
-#content2 .flip-animation img {
-    -webkit-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    transition: transform 0.4s;
-}
 
 .iroatume{
     font-size: 16px;
