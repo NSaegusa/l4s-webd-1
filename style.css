@@ -34,47 +34,51 @@ nav a:hover {
 }
 
 .main-visual {
-    width: 983px;
-    height: 664px;
+    width: 1006px;
+    height: 700px;
     background: #fff url(sea.jpg) 0 0 no-repeat;
     background-size: cover;
     margin: 0 auto;
 }
 
 .wrapper {
-    width: 1080px;
+    width: 1006px;
     margin: 0 auto;
 }
 
 #main {
-    width: 750px;
-    margin: 0 auto;
+    width: 700px;
     overflow: hidden;
     /*background: 16px;*/
     float: left;
 }
 
+
 .content {
     border-bottom: 1px solid #eee;
     overflow: hidden;
-    background: #fff;
     margin: 20px;
+    margin-left: 0px;
     padding: 10px;
     padding-bottom:30px;
+    background: #fff;
 }
 
 #content1 {
     position: relative;
+    background: #fff;
 
 }
 
 #content2 {
     position: relative;
+    background: #fff;
 
 }
 
 #content3 {
     position: relative;
+    background: #fff;
 
 }
 
@@ -84,17 +88,19 @@ nav a:hover {
 
 #content4 {
     position: relative;
+    background: #fff;
 }
 
 .top-title {
     font-size: 36px;
-    text-align: center;
     margin:10px;
     color: #386387;
+    padding: 10px;
+    text-align: center;
 }
 
 .favorite-box {
-    width: 680px;
+    width: 630px;
     padding: 10px;
     margin: 10px;
     overflow: hidden;
@@ -105,40 +111,94 @@ h2 {
 
 }
 
-.dissolve-animation {
+.idol-box{
+    width: 570px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.dissolve-animation{
     position: relative;
-    width: 130px;
-    height: 130px;
-    padding: 10px;
-    margin: 20px;
+    width: 190px;
+    height: 190px;
     float: left;
 }
 
 #content2 .dissolve-animation .caption {
     position: absolute;
-    padding: 10px;
-    margin: 20px;
-    background: #e63c35;
-    height: 130px;
-    width: 130px;
+    padding: 15px;
+    margin:30px;
+    background: #9fbbd5;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    float: left;
+    float:left;
+    opacity:0;
+}
+
+#content2 .dissolve-animation:hover .caption{
+    opacity:1;
+}
+
+#content2 .dissolve-animation .caption h3{
+    text-align: center;
+    color: #777;
+}
+
+#saka-text{
+    margin: 10px;
+}
+
+#nijikon-text{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#dempa-text{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#hello-text{
+    margin-top: 20px;
+}
+
+#bannmonn-text{
+    margin-top: 20px;
+    font-size: 12px;
+}
+/*
+.dissolve-animation {
+    position: relative;
+    width: 106px;
+    height: 106px;
+}
+
+#content2 .dissolve-animation .caption {
+    position: absolute;
+    padding: 10px;
+    margin: 0 auto;
+    background: #e63c35;
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    float:left;
 }
 
 #content2 .dissolve-animation .caption h2{
     color: #fff;
     font-size: 13px;
-}
+}*/
 
-.idol-image{
-    width: 600px;
-    margin: 0 auto;
-}
+/*.idol-image{
+    width: 150px;
+     padding: 10px;
+    margin: 32px;
+}*/
 
 
 .imagegazou{
-    margin:20px;
-    padding: 10px;
+    padding: 30px;
     overflow: hidden;
 }
 
@@ -179,6 +239,23 @@ p1 {
     margin-right: 18px;
 }
 
+.favorite-box h2{
+    color: #9fbbd5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#idol-h2{
+    margin-bottom: 0;
+}
+
+.photo-layout{
+    height: 400px;
+    width: 630px;
+    margin:0 auto;
+    margin-right: 10px;
+}
+
 
 
 body {
@@ -209,6 +286,7 @@ body {
     float: left;
     width: 280px;
     margin: 20px 10px;
+    margin-right: 0;
     background: #fff;
     padding: 8px;
 
@@ -241,6 +319,37 @@ p.new {
     top: 16px;
 }
 
+.playlist-layout{
+    text-align: center;
+}
+
+.playlist-button{
+    font-size: 10px;
+    color: #9fbbd5;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #9fbbd5;
+    transition: all 0.3s;
+}
+
+.for-applemusic{
+    font-size: 8px;
+    color: #777;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+a.playlist-button:hover{
+    color:#fff;
+    background-color: #386387;
+}
+
 
 .iroatume{
     font-size: 16px;
@@ -258,7 +367,7 @@ p.new {
 
 a.iroatume:hover{
     color:#fff;
-    background-color: #9fbbd5;
+    background-color: #386387;
 }
 
 .button{
@@ -271,11 +380,12 @@ a.iroatume:hover{
     text-decoration: none;
     letter-spacing: 3px;
     padding: 10px 30px;
-    margin-left: 10px;
+    margin: 0 20px;
     position: relative;
     overflow: hidden;
     display: inline-block;
 }
+
 
 .fbbutton .edge {
     display: block;
@@ -348,7 +458,8 @@ h2 a {
     text-decoration: none;
     letter-spacing: 3px;
     padding: 10px 30px;
-    margin-left: 10px;
+    margin: 0 20px;
+    margin-left: 27px;
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -421,7 +532,7 @@ a.twbutton:hover .edge {
     text-decoration: none;
     letter-spacing: 3px;
     padding: 10px 30px;
-    margin-left: 10px;
+    margin: 0 20px;
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -495,7 +606,7 @@ a.igbutton:hover .edge {
 }
 
 .photo-image{
-    padding: 10px;
+    padding: 10px 7px;
     margin: 0 auto;
     
 }
